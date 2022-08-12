@@ -1,0 +1,70 @@
+.env
+/internal
+
+# GOLANG IGNORES
+
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+
+
+# REACT IGNORES
+#
+web/.git
+web/.DS_STORE
+web/node_modules
+web/scripts/flow/*/.flowconfig
+web/.flowconfig
+*~
+web/*.pyc
+web/.grunt
+web/_SpecRunner.html
+web/__benchmarks__
+web/build/
+web/remote-repo/
+web/coverage/
+web/.module-cache
+web/fixtures/dom/public/react-dom.js
+web/fixtures/dom/public/react.js
+web/test/the-files-to-test.generated.js
+web/*.log*
+web/chrome-user-data
+web/*.sublime-project
+web/*.sublime-workspace
+web/.idea
+web/*.iml
+web/.vscode
+web/*.swp
+web/*.swo
+
+web/packages/react-devtools-core/dist
+web/packages/react-devtools-extensions/chrome/build
+web/packages/react-devtools-extensions/chrome/*.crx
+web/packages/react-devtools-extensions/chrome/*.pem
+web/packages/react-devtools-extensions/firefox/build
+web/packages/react-devtools-extensions/firefox/*.xpi
+web/packages/react-devtools-extensions/firefox/*.pem
+web/packages/react-devtools-extensions/shared/build
+web/packages/react-devtools-extensions/.tempUserDataDir
+web/packages/react-devtools-inline/dist
+web/packages/react-devtools-shell/dist
+web/packages/react-devtools-timeline/dist
